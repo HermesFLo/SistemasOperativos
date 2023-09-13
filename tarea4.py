@@ -126,4 +126,6 @@ def imprimir(listaDeProcesos):
                 total=total-1
                 
 Captura()
-os.exit()
+#falta que i quité y ponga en la cola original
+#que e elimine y que no se imprima doble en lista de terminados 
+#falta que se pause y se continué el programa
