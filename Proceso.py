@@ -6,6 +6,4 @@ class Proceso:
     n2=int()
     eta=int()
     res=int()
-    
-    cola=[]
-    listaTerm=()
+    contador=0
