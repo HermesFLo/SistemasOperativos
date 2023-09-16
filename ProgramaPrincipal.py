@@ -1,7 +1,8 @@
 import msvcrt 
 import threading
 from collections import deque
-from Prueba import Prueba
+
+from Prueba import *
 
 def prueba():
     prueba = Prueba()
@@ -13,7 +14,15 @@ def esperar(prueba):
     while(True):
         teclado = msvcrt.getch()
         if (teclado == b'e'):
-            print(teclado)
             prueba.doDescartar()
+            
+        if (teclado == b'i'):
+            prueba.doAcomodar()
+            
+
+        if (teclado == b'p'):
+            prueba.doPausa()
+
+
 
 prueba()
