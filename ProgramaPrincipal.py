@@ -1,7 +1,6 @@
 import msvcrt 
 import threading
 from collections import deque
-
 from Prueba import *
 
 def prueba():
