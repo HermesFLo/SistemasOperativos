@@ -22,6 +22,10 @@ def esperar(prueba):
         if (teclado == b'p'):
             prueba.doPausa()
 
-
+        if (teclado == b'n'):
+            prueba.doAgregar()
+            
+        if (teclado == b'b'):
+            prueba.doBcp()
 
 prueba()
