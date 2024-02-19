@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.uno{
+    background-color: hotpink;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.dos{
+    background-color: rgb(23, 194, 52);
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+
+}
+.tres{
+    background-color:blueviolet;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+
